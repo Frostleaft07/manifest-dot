@@ -35,7 +35,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="dot" />
 
   <!-- Build Repos -->
-  <project path="build/make" name="android_build" groups="pdk" remote="dot" >
+  <project path="build/make" name="android_build-dot" remote="gw" revision="dot11" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
